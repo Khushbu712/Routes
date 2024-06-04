@@ -22,12 +22,12 @@ function App() {
 
 
   const router = createBrowserRouter([
-    {path:"/",
+    {path:"/root",
     element:<Navbar />,
      children:[
     { index:true ,element:<Home/>},
-    {path:"/about", element:<About/>},
-    {path:"/item", element:<Item/>}
+    {path:"/root/about", element:<About/>},
+    {path:"/root/item", element:<Item/>}
     ],
   },
     ]
